@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC32D4EC26FC9C6900538639 /* spell_checkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32D4EB26FC9C6900538639 /* spell_checkerApp.swift */; };
+		DC32D4EE26FC9C6900538639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32D4ED26FC9C6900538639 /* ContentView.swift */; };
+		DC32D4F026FC9C6B00538639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC32D4EF26FC9C6B00538639 /* Assets.xcassets */; };
+		DC32D4F326FC9C6B00538639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC32D4F226FC9C6B00538639 /* Preview Assets.xcassets */; };
+		DC32D4FD26FC9C6B00538639 /* spell_checkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32D4FC26FC9C6B00538639 /* spell_checkerTests.swift */; };
+		DC32D50726FC9C6B00538639 /* spell_checkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32D50626FC9C6B00538639 /* spell_checkerUITests.swift */; };
+		DC32D50926FC9C6B00538639 /* spell_checkerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32D50826FC9C6B00538639 /* spell_checkerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC32D4F926FC9C6B00538639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC32D4E026FC9C6900538639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC32D4E726FC9C6900538639;
+			remoteInfo = "spell-checker";
+		};
+		DC32D50326FC9C6B00538639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC32D4E026FC9C6900538639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC32D4E726FC9C6900538639;
+			remoteInfo = "spell-checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC32D4E826FC9C6900538639 /* spell-checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spell-checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32D4EB26FC9C6900538639 /* spell_checkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spell_checkerApp.swift; sourceTree = "<group>"; };
+		DC32D4ED26FC9C6900538639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC32D4EF26FC9C6B00538639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC32D4F226FC9C6B00538639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC32D4F826FC9C6B00538639 /* spell-checkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spell-checkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32D4FC26FC9C6B00538639 /* spell_checkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spell_checkerTests.swift; sourceTree = "<group>"; };
+		DC32D50226FC9C6B00538639 /* spell-checkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spell-checkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32D50626FC9C6B00538639 /* spell_checkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spell_checkerUITests.swift; sourceTree = "<group>"; };
+		DC32D50826FC9C6B00538639 /* spell_checkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spell_checkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC32D4E526FC9C6900538639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC32D4F526FC9C6B00538639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC32D4FF26FC9C6B00538639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC32D4DF26FC9C6900538639 = {
+			isa = PBXGroup;
+			children = (
+				DC32D4EA26FC9C6900538639 /* spell-checker */,
+				DC32D4FB26FC9C6B00538639 /* spell-checkerTests */,
+				DC32D50526FC9C6B00538639 /* spell-checkerUITests */,
+				DC32D4E926FC9C6900538639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC32D4E926FC9C6900538639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC32D4E826FC9C6900538639 /* spell-checker.app */,
+				DC32D4F826FC9C6B00538639 /* spell-checkerTests.xctest */,
+				DC32D50226FC9C6B00538639 /* spell-checkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC32D4EA26FC9C6900538639 /* spell-checker */ = {
+			isa = PBXGroup;
+			children = (
+				DC32D4EB26FC9C6900538639 /* spell_checkerApp.swift */,
+				DC32D4ED26FC9C6900538639 /* ContentView.swift */,
+				DC32D4EF26FC9C6B00538639 /* Assets.xcassets */,
+				DC32D4F126FC9C6B00538639 /* Preview Content */,
+			);
+			path = "spell-checker";
+			sourceTree = "<group>";
+		};
+		DC32D4F126FC9C6B00538639 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC32D4F226FC9C6B00538639 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC32D4FB26FC9C6B00538639 /* spell-checkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC32D4FC26FC9C6B00538639 /* spell_checkerTests.swift */,
+			);
+			path = "spell-checkerTests";
+			sourceTree = "<group>";
+		};
+		DC32D50526FC9C6B00538639 /* spell-checkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC32D50626FC9C6B00538639 /* spell_checkerUITests.swift */,
+				DC32D50826FC9C6B00538639 /* spell_checkerUITestsLaunchTests.swift */,
+			);
+			path = "spell-checkerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC32D4E726FC9C6900538639 /* spell-checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC32D50C26FC9C6B00538639 /* Build configuration list for PBXNativeTarget "spell-checker" */;
+			buildPhases = (
+				DC32D4E426FC9C6900538639 /* Sources */,
+				DC32D4E526FC9C6900538639 /* Frameworks */,
+				DC32D4E626FC9C6900538639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spell-checker";
+			productName = "spell-checker";
+			productReference = DC32D4E826FC9C6900538639 /* spell-checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC32D4F726FC9C6B00538639 /* spell-checkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC32D50F26FC9C6B00538639 /* Build configuration list for PBXNativeTarget "spell-checkerTests" */;
+			buildPhases = (
+				DC32D4F426FC9C6B00538639 /* Sources */,
+				DC32D4F526FC9C6B00538639 /* Frameworks */,
+				DC32D4F626FC9C6B00538639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC32D4FA26FC9C6B00538639 /* PBXTargetDependency */,
+			);
+			name = "spell-checkerTests";
+			productName = "spell-checkerTests";
+			productReference = DC32D4F826FC9C6B00538639 /* spell-checkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC32D50126FC9C6B00538639 /* spell-checkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC32D51226FC9C6B00538639 /* Build configuration list for PBXNativeTarget "spell-checkerUITests" */;
+			buildPhases = (
+				DC32D4FE26FC9C6B00538639 /* Sources */,
+				DC32D4FF26FC9C6B00538639 /* Frameworks */,
+				DC32D50026FC9C6B00538639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC32D50426FC9C6B00538639 /* PBXTargetDependency */,
+			);
+			name = "spell-checkerUITests";
+			productName = "spell-checkerUITests";
+			productReference = DC32D50226FC9C6B00538639 /* spell-checkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC32D4E026FC9C6900538639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DC32D4E726FC9C6900538639 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DC32D4F726FC9C6B00538639 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DC32D4E726FC9C6900538639;
+					};
+					DC32D50126FC9C6B00538639 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DC32D4E726FC9C6900538639;
+					};
+				};
+			};
+			buildConfigurationList = DC32D4E326FC9C6900538639 /* Build configuration list for PBXProject "spell-checker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC32D4DF26FC9C6900538639;
+			productRefGroup = DC32D4E926FC9C6900538639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC32D4E726FC9C6900538639 /* spell-checker */,
+				DC32D4F726FC9C6B00538639 /* spell-checkerTests */,
+				DC32D50126FC9C6B00538639 /* spell-checkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC32D4E626FC9C6900538639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32D4F326FC9C6B00538639 /* Preview Assets.xcassets in Resources */,
+				DC32D4F026FC9C6B00538639 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC32D4F626FC9C6B00538639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC32D50026FC9C6B00538639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC32D4E426FC9C6900538639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32D4EE26FC9C6900538639 /* ContentView.swift in Sources */,
+				DC32D4EC26FC9C6900538639 /* spell_checkerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC32D4F426FC9C6B00538639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32D4FD26FC9C6B00538639 /* spell_checkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC32D4FE26FC9C6B00538639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32D50726FC9C6B00538639 /* spell_checkerUITests.swift in Sources */,
+				DC32D50926FC9C6B00538639 /* spell_checkerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC32D4FA26FC9C6B00538639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC32D4E726FC9C6900538639 /* spell-checker */;
+			targetProxy = DC32D4F926FC9C6B00538639 /* PBXContainerItemProxy */;
+		};
+		DC32D50426FC9C6B00538639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC32D4E726FC9C6900538639 /* spell-checker */;
+			targetProxy = DC32D50326FC9C6B00538639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC32D50A26FC9C6B00538639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC32D50B26FC9C6B00538639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC32D50D26FC9C6B00538639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"spell-checker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S5YV6328Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galich.spell-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC32D50E26FC9C6B00538639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"spell-checker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S5YV6328Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galich.spell-checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC32D51026FC9C6B00538639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S5YV6328Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galich.spell-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spell-checker.app/spell-checker";
+			};
+			name = Debug;
+		};
+		DC32D51126FC9C6B00538639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S5YV6328Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galich.spell-checkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spell-checker.app/spell-checker";
+			};
+			name = Release;
+		};
+		DC32D51326FC9C6B00538639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S5YV6328Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galich.spell-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "spell-checker";
+			};
+			name = Debug;
+		};
+		DC32D51426FC9C6B00538639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8S5YV6328Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "galich.spell-checkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "spell-checker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC32D4E326FC9C6900538639 /* Build configuration list for PBXProject "spell-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32D50A26FC9C6B00538639 /* Debug */,
+				DC32D50B26FC9C6B00538639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC32D50C26FC9C6B00538639 /* Build configuration list for PBXNativeTarget "spell-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32D50D26FC9C6B00538639 /* Debug */,
+				DC32D50E26FC9C6B00538639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC32D50F26FC9C6B00538639 /* Build configuration list for PBXNativeTarget "spell-checkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32D51026FC9C6B00538639 /* Debug */,
+				DC32D51126FC9C6B00538639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC32D51226FC9C6B00538639 /* Build configuration list for PBXNativeTarget "spell-checkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32D51326FC9C6B00538639 /* Debug */,
+				DC32D51426FC9C6B00538639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC32D4E026FC9C6900538639 /* Project object */;
+}
